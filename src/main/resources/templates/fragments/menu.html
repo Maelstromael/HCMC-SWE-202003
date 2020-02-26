@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/DataTables/datatables.css">
+
+<script type="text/javascript" charset="utf8"
+	src="/DataTables/datatables.js"></script>
+<title>Menu</title>
+</head>
+<body>
+
+	<nav class="navbar-default navbar-side" role="navigation" th:fragment="menu">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+				<li><a href="home"><i class="fa fa-home"></i> Home </a></li>
+				<li><a href="#"><i class="fa fa-file-text-o"></i>Patient<span class="fa arrow"></span></a>
+					<ul class="nav nav-second-level">
+						<li><a href="list">All Patient</a></li>
+						<li><a href="elderly">Elderly Patient</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+
+	</nav>
+
+</body>
+</html>
