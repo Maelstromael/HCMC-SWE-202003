@@ -11,4 +11,6 @@ Once, you restart it, you will lose all the data except those at the Java class 
 The application is working and showing the list of all Patients recorded in the System. 
 However, I did not have time to implement UI for saving data or updating.
 
+Open Browser -> go to http://localhost:9009/hcmcpatientsmgmt/ as the picture in the google sheet shows and start browsing.
+
 Enjoy!
